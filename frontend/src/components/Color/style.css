@@ -1,0 +1,10 @@
+.container-colors{
+    margin:20px auto ;
+    padding:30px 20px;
+    width: 300px;
+    
+}
+.container-colors button{
+    margin-top:30px !important;
+    width: 140px;
+}

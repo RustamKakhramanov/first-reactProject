@@ -3,6 +3,7 @@ import Grid  from 'react-bootstrap/lib/Grid';
 import Col  from 'react-bootstrap/lib/Col';
 import Row  from 'react-bootstrap/lib/Row';
 import Button  from 'react-bootstrap/lib/Button';
+import {Link} from 'react-router-dom';
 
 import Client from '../Client'
 import Color from '../Color'
@@ -40,7 +41,7 @@ class Site extends Component{
                         </Col>
                         <Col xs={12} md={6} className='text-center'>
                             <h3 className='title'>Form for registration and authorization</h3>
-                            <a className='btn btn-primary btn-sel' href="/Client">Click to view</a>
+                            <Link className='btn btn-primary btn-sel' to="/client">Click to view</Link>
                         </Col>
                     </Row>
                 </Grid>

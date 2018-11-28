@@ -2,6 +2,7 @@ import React,{Component} from "react"
 import "./style.css"
 import Registration from './registration'
 import Authorization from './authorization'
+import {Link} from 'react-router-dom';
 
 class Client extends Component{
     constructor(props){
@@ -25,7 +26,7 @@ class Client extends Component{
                     {client}
                         <span className='select' onClick={this.selected}>{this.state.select ? 'Signup': 'Signin'}</span>
                     </div>
-                    <a href="/"  className='btn-sel'>Back to home</a>
+                    <Link to="/"  className='btn-sel'>Back to home</Link>
                 </div>
                 
       
